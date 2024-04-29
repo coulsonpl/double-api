@@ -125,7 +125,7 @@ class DoubleBot:
                 logging.error(f"Error refreshing access token: {e}")
 
     async def get_access_token(self):
-        logging.info(f"get_access_token self.token_expiration_time: {self.token_expiration_time}")
+        # logging.info(f"get_access_token token_expiration_time: {self.token_expiration_time}")
         if time.time() >= self.token_expiration_time:
             await self.refresh_token()
         return self.access_token
