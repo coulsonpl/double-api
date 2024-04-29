@@ -1,0 +1,5 @@
+tiktoken
+uvicorn
+fastapi
+httpx
+python-dotenv
