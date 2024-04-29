@@ -6,9 +6,9 @@
 ```
 version: '3'
 services:
-  double:
-    container_name: double
-    image: coulsontl/double
+  double-api:
+    container_name: double-api
+    image: coulsontl/double-api
     network_mode: bridge
     restart: always
     ports:
