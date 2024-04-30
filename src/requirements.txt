@@ -1,5 +1,4 @@
-tiktoken
-uvicorn
-fastapi
 httpx
+aiohttp~=3.9.4
 python-dotenv
+chardet
